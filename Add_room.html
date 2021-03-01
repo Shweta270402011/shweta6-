@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Room.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/ bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+
+
+    <center>
+        <div class="header text-center container-fluid">
+            <h1>School of Art and Dance</h1>
+            <hr>
+            <p>Let's connect people</p>
+        </div>
+
+
+        <img src="Art _ Culture.png" class="img-responsive">
+        <br><br>
+        <form class="form-inline">
+            <div class="input-group">
+                <label>Enter New Room Name </label>
+                <input type="text" class="form-control" size="50" id="room_name" placeholder="Room Name" required>
+                <button type="button" class="btn btn-success" onclick="addRoom()">Add Room</button>
+
+            </div>
+        </form>
+
+
+    </center>
+</body>
+
+</html>
